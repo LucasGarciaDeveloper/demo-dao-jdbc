@@ -59,7 +59,7 @@ public class Department implements Serializable{
 	}
 
 	public String toString() {
-		return "Id: " + this.getId() + "name: " + this.getName();
+		return "Id: " + this.getId() + ", Name: " + this.getName();
 	}
 	
 }
